@@ -12,7 +12,7 @@ February 2025 v1.0
    - [4.1. Proposed Flow](#41-proposed-flow)
 5. [Code Examples](#5-code-examples)
 
-## **1.** Introduction
+## 1. Introduction
 
 This document outlines the standard for **unique service links** that
 will redirect users from Hartak.am to the YesEm Authentication Platform
