@@ -5,6 +5,7 @@ This repository contains standards and related documents intended for Armenian p
 ## Documents in Armenian 🇦🇲
 
 1. [Ծառայությունների եզակի հղումների ստեղծում Hartak.am-ի համար](./docs/unique-service-links/hy.md)
+2. [Օգտատերերի գոհունակության գնահատման վահանակի (Widget) ինտեգրման ուղեցույց](./docs/user-satisfaction-widget/hy.md)
 
 ## Documents in English 🇬🇧
 
