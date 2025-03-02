@@ -37,7 +37,7 @@ The User Satisfaction Score Widget is a standardized component for measuring use
 
 Separate packages will be released for measure 3, and 4.
 
-The system implements a 5-point rating system, (Based on CSAT / NPS) that helps service providers gather objective feedback and improve their public services. The system can be integrated with multiple channels (for example online digital services, app channels, or by feedback after entering physical locations.
+The system implements a 5-point rating system, (Based on CSAT / NPS) that helps service providers gather objective feedback and improve their public services. The system can be integrated with multiple channels (for example online digital services, app channels, or by feedback after entering physical locations).
 
 ### Rating Scale Definition
 
