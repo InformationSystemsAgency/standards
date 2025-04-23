@@ -1,7 +1,7 @@
 # Unique Service Links for Hartak.am
 
 **Integration Document** \
-February 2025 v1.0
+April 2025 v2.0
 
 ## Table of Contents
 
@@ -52,8 +52,6 @@ ISAA's Technical Team recommends the following structure for unique service link
 - **Directory <span style="color:#d96d46">/services**</span>: Specifies that the link pertains to a service.
 
 - **<span style="color:#7b1ed8">/\[serviceId\]</span>**: Service ID from the National Service Catalog(Get Service ID by contacting ISAA via [service.admin@isaa.am](mailto:service.admin@isaa.am).
-
-- **<span style="color:#004fa3">/login<span>**: Indicates that the link will redirect users to the YesEm Authentication Portal immediately upon access.
 
 A standardized unique service link format is important to ensure
 consistency across services and portals and simplify maintenance in the
