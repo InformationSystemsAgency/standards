@@ -6,12 +6,13 @@ April 2025 v2.0
 ## Table of Contents
 
 1. [Overview](#overview)
+   - [Digital Service and Integration Types](#digital-service-and-integration-types)
    - [Rating Scale Definition](#rating-scale-definition)
    - [Satisfaction Calculation](#satisfaction-calculation)
 2. [Step-by-Step Integration Guide](#step-by-step-integration-guide)
-   - [Step 1: Choose Your Implementation Type](#step-1-choose-your-implementation-type)
+   - [Step 1: Choose Your Integration Type](#step-1-choose-your-integration-type)
    - [Step 2: Prepare Your Parameters](#step-2-prepare-your-parameters)
-   - [Step 3: Implementation](#step-3-implementation)
+   - [Step 3: Integration](#step-3-integration)
      - [Option A: Henaket Integration](#option-a-henaket-integration)
      - [Option B: Standard Integration (Non-Henaket)](#option-b-standard-integration-non-henaket)
    - [Step 4: Add URL Parameters](#step-4-add-url-parameters)
@@ -20,7 +21,7 @@ April 2025 v2.0
 3. [Size Requirements](#size-requirements)
    - [Henaket Integration](#henaket-integration)
    - [Standard Integration](#standard-integration)
-4. [Implementation Examples](#implementation-examples)
+4. [Integration Examples](#integration-examples)
    - [Henaket Integration](#henaket-integration-1)
    - [Standard Integration (Non-Henaket)](#standard-integration-non-henaket-1)
 5. [Responsive Behavior](#responsive-behavior)
@@ -39,6 +40,19 @@ The User Satisfaction Score Widget is a standardized component for measuring use
 Separate packages will be released for Measures 3 and 4.
 
 The widget uses a 5-point rating system (based on CSAT/NPS) to help service providers gather objective feedback and improve their public services. It can be integrated into multiple channels, including online digital services, app-based channels, or physical feedback locations.
+
+You can see the demo version [here](https://nps.services.catalog.isaa.cloud).
+
+### Digital Service and Integration Types
+
+Government digital services are those delivered fully online end-to-end without any offline steps.
+
+Since not all services are yet built with Henaket, this guide covers two scenarios and shows, step by step, how to integrate the satisfaction widget in each, those integration types are teh following:
+
+- **Henaket-based services**
+  Services built with the [Henaket design system](https://www.figma.com/community/file/1257654638425705295), ensuring visual and interaction consistency.
+- **Standard (non-Henaket) services**
+  Legacy or third-party services that don’t use Henaket components.
 
 ### Rating Scale Definition
 
@@ -60,9 +74,9 @@ Satisfaction % = (Number of 4 and 5 ratings / Total responses) × 100
 
 ## Step-by-Step Integration Guide
 
-### Step 1: Choose Your Implementation Type
+### Step 1: Choose Your Integration Type
 
-Select an implementation type based on your needs:
+Select an integration type based on your needs:
 
 - **Henaket Integration**: Use this version if your service is built using the [Henaket design system](https://www.figma.com/community/file/1257654638425705295), optimized for visual compatibility.
 - **Standard Integration**: Use this version if integrating into existing (legacy) services not built with Henaket.
@@ -77,7 +91,7 @@ Collect the following required information:
 
 ISAA provides this information during integration.
 
-### Step 3: Implementation
+### Step 3: Integration
 
 #### Option A: Henaket Integration
 
@@ -178,7 +192,7 @@ Place the widget at each significant touchpoint within the service journey. For 
 - Height: Fixed 126px
 - The widget should be responsive within these constraints
 
-## Implementation Examples
+## Integration Examples
 
 ### Henaket Integration
 
