@@ -2,7 +2,7 @@ Appendix: Mobile Universal Links & App Links for Hartak.am
 ===========================================================
 
 **Integration Document – Mobile Appendix** \
-April 2025 v1.0
+February 2026 v1.0
 
 ## Table of Contents
 
